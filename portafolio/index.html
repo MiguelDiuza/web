@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+</head>
+<body>
+  <div class="container">
+    <img src="imagen.png" alt="Imagen de perfil" width="200" height="200" > <!-- Corregido el nombre del archivo de imagen -->
+    <h1>Miguel Angel Diuza</h1>
+    <p>Soy un apasionado por la tecnología y la creatividad. Me gusta diseñar y desarrollar productos digitales que solucionen problemas
+      <br>
+      y mejoren la vida de las personas. Estudio ingeniería multimedia en la Universidad Autonoma de occidente, una de las mejores instituciones
+      <br>
+      del país en esta área. En mi tiempo libre, practico basket con mis amigos, me encanta la adrenalina y la velocidad de las motos, y disfruto
+      <br>
+      de apreciar y crear diferentes formas de arte. Tengo 21 años y estoy siempre dispuesto a aprender y a enfrentar nuevos retos</p>
+    <h2>Hobbies:</h2>
+    <p>jugar basketball, andar en moto, ver peliculas, jugar videojuegos</p>
+    <iframe width="560" height="315" src="video.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- Corregido el nombre del archivo de video -->
+    <audio controls>
+      <source src="audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <form action="submit.php" method="post">
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre"><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+      <label for="motivo">Motivo:</label><br>
+      <textarea id="motivo consulta" name="motivo" rows="4" cols="50"></textarea><br>
+      <input type="submit" value="Enviar">
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Red Social</th>
+          <th>URL</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Facebook</td>
+          <td><a href="https://www.facebook.com/profile.php?id=100012597274052"><img src="facebook.png" width="40" height="40"alt="Facebook"></a></td>
+        </tr>
+        <tr>
+          <td>Instagram</td>
+          <td><a href="https://www.instagram.com/diuzamiguel/"><img src="instagram.png" width="40" height="40" alt="Instagram"></a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
